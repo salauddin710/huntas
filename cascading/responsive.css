@@ -1,0 +1,9 @@
+@media (min-width:320px) and (max-width:575px){
+    nav button i{
+        color: red;
+        font-size: 25px;
+    }
+    #banerpart .banner .overlay h3{
+        color: red;
+    }
+}
