@@ -100,7 +100,7 @@ $('.klen').slick({
      //counter up
 //$('.comain h1').counterUp();
 
-let cnt = document.querySelectorAll('.comain h1')
+let cnt = document.querySelectorAll('.comain ')
 let cntarr = Array.from(cnt)
 
 cntarr.map((enima)=>{
