@@ -1,9 +1,154 @@
 @media (min-width:320px) and (max-width:575px){
+        /*<================ 
+            nav start
+     ==================>*/
+    #menubar button{
+         outline: 0;
+    }
     nav button i{
-        color: red;
+        color: #fff;
         font-size: 25px;
     }
-    #banerpart .banner .overlay h3{
-        color: red;
+    .navbar-nav{
+        margin:0 74px !important;
     }
+    #menubar ul li a::after{
+        bottom: 0;
+        height: 1px;
+    }
+    
+    /*<================ 
+            nav end
+     ==================>*/
+    /*<========================== 
+            banner part start
+     ==========================>*/
+    
+    #banerpart .banner .overlay p{
+        padding: 0 40px;
+    }
+    #banerpart .banner .overlay h3{
+        margin-top: 100px;
+    }
+    
+    
+    #banerpart .banner .overlay a:nth-last-child(1){
+        margin-top:15px;
+    }
+    #banerpart .prevos{
+        top:53%;
+    }
+    #banerpart .next{
+        top:53%;
+    }
+    /*<========================== 
+            banner part end
+     ==========================>*/
+    /*<========================== 
+            about part start
+     ==========================>*/
+    #about .about-head p{
+        width:300px;
+    }
+    #about .detail h1{
+        text-align: center;
+    }
+    #about .lft p{
+        width:273px;
+        text-align: center;
+    }
+    #about .tpo p{
+        width:280px;
+    }
+    #about .detail .left{
+        display: none;
+    }
+    
+    #about .shado .left-dot{
+        display: none;
+    }
+    #about .detail .top{
+        display: none;
+    }
+    
+    #about .shado .top-dot{
+        display: none;
+    }
+    #about .detail .right{
+        display: none;
+    }
+    #about .shado .right-dot{
+        display: none;
+    }
+    #about .rght p{
+        width:293px;
+    }
+    #about .detail{
+        padding: 40px 7px 40px;
+    }
+    #about .detail .bottom{
+        display: none;
+    }
+    #about .shado .bottom-dot{
+        display: none;
+    }
+    #about .botm p{
+        width:280px;
+    }
+    .offset-4{
+        margin-left: 0;
+    }
+    #about .image{
+        width:300px;
+        height:300px;
+    }
+    #about .image .pick{
+        width:270px;
+        height:270px;
+    }
+    /*<========================== 
+            about part end
+     ==========================>*/
+    
+    #portfolio .port-head p{
+        width: 300px;
+    }
+    /*<========================== 
+            service part start
+     ==========================>*/
+    #service .serv-head p{
+        width: 300px;
+    }
+    #service .service-first .slide-service .prevos{
+        left: 146px;
+        top: -9%;
+    }
+    #service .service-first .slide-service .next{
+          left: 146px;
+    }
+    #service .line{
+        height: 1577px;
+        top:1007px;
+    }
+    #service .service-first .slide-service .item .passage .brrr{
+        display: none;
+    }
+    #service .service-first .slide-service .item .passage p{
+        width: 244px;
+        text-align: justify;
+    }
+    /*<========================== 
+            service part end
+     ==========================>*/
+    /*<========================== 
+            pricing part start
+     ==========================>*/
+    #pricing .plan{
+        margin-top: 10px;
+    }
+    /*<========================== 
+            pricing part end
+     ==========================>*/
+    
+    
 }
