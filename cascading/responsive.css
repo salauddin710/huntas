@@ -107,6 +107,9 @@
         width:270px;
         height:270px;
     }
+    .row{
+        flex-direction: column;
+    }
     /*<========================== 
             about part end
      ==========================>*/
@@ -150,6 +153,18 @@
     /*<========================== 
             pricing part end
      ==========================>*/
+    #count .cal .laping .comain{
+        margin-top: 15px;
+    }
+    #count .cal{
+        transform: skewy(0);
+    }
+    #count .cal .laping .comain h1{
+        transform: skewy(0);
+    }
+    #count .cal .laping .comain h3{
+        transform: skewy(0);
+    }
     
     
 }
